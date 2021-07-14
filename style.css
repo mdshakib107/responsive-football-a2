@@ -93,7 +93,6 @@ legend{
     color: white;
     padding: 0 10px;
     border-radius: 5px;
-
 }
 /*----------------------------------------
       style for sponser section 
@@ -121,4 +120,63 @@ hr{
 .footer img{
     width: 480px;
     height: 110px;
+}
+/*-----------------------------------
+  mediaQuary Style for responsive
+----------------------------------- */
+@media only screen and (max-width:688px) { 
+.main{
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: normal;
+       height: 900px;
+   }
+.main-title{
+    margin-left: 18px;    
+}
+.main img{
+    width: 329px;
+    height: 260px;
+}
+.players {
+    grid-template-columns: repeat(1,1fr);
+    padding: 2px 2px;
+    margin: 15px;
+}
+.sponser-display {
+    grid-template-columns: repeat(1,1fr);
+   
+}
+.footer img{
+    width: 125px;
+    height: 30px;
+}
+}
+/*-----------------------------------
+     Responsive for Tablet Device
+------------------------------------- */
+@media only screen and (min-width: 688px) and (max-width:992px){
+ .main {
+        justify-content: space-around;
+        flex-direction: column;
+        height: 1000px;
+}
+.main-title{
+    margin: 0;
+}
+.main-img{
+    margin: 0;
+}
+.players {
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 27px;
+    grid-row-gap: 27px;
+    padding: 2px 2px;
+    margin-left: 0;
+}
+.sponser-display{
+    grid-template-columns: repeat(2,1fr);
+   
+}
+    
 }
