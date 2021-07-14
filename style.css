@@ -121,10 +121,20 @@ hr{
     width: 480px;
     height: 110px;
 }
+.social-icon{
+    padding: 5px;
+    font-size: 20px;
+}
 /*-----------------------------------
   mediaQuary Style for responsive
 ----------------------------------- */
+/*-------------------------------------
+   Responsive For Mobile Diviece
+------------------------------------- */
 @media only screen and (max-width:688px) { 
+    /* -------------------------------------------------------
+ Responsive For Mobile Diviece style for the header section 
+------------------------------------------------------------*/
 .main{
        flex-direction: column;
        justify-content: space-around;
@@ -138,15 +148,24 @@ hr{
     width: 329px;
     height: 260px;
 }
+  /* -------------------------------------------------------
+ Responsive For Mobile Diviece style for the Players section 
+------------------------------------------------------------*/
 .players {
     grid-template-columns: repeat(1,1fr);
     padding: 2px 2px;
     margin: 15px;
 }
+/* -------------------------------------------------------
+ Responsive For Mobile Diviece style for the Sponser section 
+------------------------------------------------------------*/
 .sponser-display {
     grid-template-columns: repeat(1,1fr);
    
 }
+/* -------------------------------------------------------
+ Responsive For Mobile Diviece style for the Footer section 
+------------------------------------------------------------*/
 .footer img{
     width: 125px;
     height: 30px;
@@ -156,6 +175,9 @@ hr{
      Responsive for Tablet Device
 ------------------------------------- */
 @media only screen and (min-width: 688px) and (max-width:992px){
+/* ----------------------------------------------------------
+ Responsive For Tablet Diviece style for the header section 
+------------------------------------------------------------*/
  .main {
         justify-content: space-around;
         flex-direction: column;
@@ -167,6 +189,9 @@ hr{
 .main-img{
     margin: 0;
 }
+/* ----------------------------------------------------------
+ Responsive For Tablet Diviece style for the Players section 
+------------------------------------------------------------*/
 .players {
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 27px;
@@ -174,6 +199,9 @@ hr{
     padding: 2px 2px;
     margin-left: 0;
 }
+/* ----------------------------------------------------------
+ Responsive For Tablet Diviece style for the Sponser section 
+------------------------------------------------------------*/
 .sponser-display{
     grid-template-columns: repeat(2,1fr);
    
