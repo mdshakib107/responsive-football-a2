@@ -18,7 +18,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background: #2D25A0;
-    height:600px;
+    height: 550px;
     width: 100%;
 }
 .main-title{
@@ -27,6 +27,7 @@ body{
 h1{
     font-size: 50px;
     color: white;  
+    margin-bottom: 13px;
 }
 .button{
     background-color: #E02C6D;
@@ -63,6 +64,13 @@ h1{
     border: 1px solid white;
     padding: 10px;
     box-shadow: 2px 3px 15px 1px lightgrey; 
+}
+.player h3{
+    font-size: 28px;
+    margin: 10px;
+    font-weight: 700;
+    margin-left: 0;
+
 }
 .players .player img{
     width: 100%;
